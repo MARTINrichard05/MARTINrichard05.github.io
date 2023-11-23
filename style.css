@@ -5,11 +5,11 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('images/bg.jpg') center/cover no-repeat; 
+    background: url('images/Back.jpg') center/cover no-repeat; 
     background-attachment: fixed;
 }
 footer{
-    background: url('images/bg.jpg') center/cover no-repeat; 
+    background: url('images/Back.jpg') center/cover no-repeat; 
     background-attachment: fixed;
 }
 .nextbg {
@@ -72,7 +72,7 @@ main{
     justify-content: space-around;
     flex-grow: 1;
     animation: open 1s forwards;
-    background: url('images/bg.jpg') center/cover no-repeat; 
+    background: url('images/Back.jpg') center/cover no-repeat; 
     background-attachment: fixed;
 }
 .Nextcloud{
