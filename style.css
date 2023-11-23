@@ -8,14 +8,18 @@
     background: url('images/bg.jpg') center/cover no-repeat; 
     background-attachment: fixed;
 }
+footer{
+    background: url('images/bg.jpg') center/cover no-repeat; 
+    background-attachment: fixed;
+}
 .nextbg {
     background: url('images/nextcloud.png') center/cover no-repeat; 
 }
 
 .imagenc{
     transition: all 0.5s;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 10%;
+    margin-right: 10%;
     max-width: 100%;
     background-color: #FFFFFF19;
     border-radius: 20px;
@@ -83,7 +87,7 @@ article{
     flex-grow: 1;
     flex-shrink: 0;
     padding: 10px;
-    background-color: #bbc3ff21;
+    background-color: #00073a28;
     border-radius: 40px;
     flex-basis: 30%;
     flex-direction: column;
@@ -95,12 +99,18 @@ article{
     -webkit-backdrop-filter: blur(2px); 
     backdrop-filter: blur(2px);
 }
+.nextart{
+    transition: all 0.5s;
+    margin: auto;
+    margin-right: 25%;
+    margin-left: 25%;
+}
 
 .formation .text {
     ftransition: all 0.5s;
     padding-left: 5%;
     padding-right: 5%;
-    background-color: #f2f4ff;
+    background-color: rgba(175, 232, 255, 0.082);
     width: fit-content;
     margin: 0 auto;
     margin-bottom: 10px;
@@ -128,7 +138,7 @@ article{
     margin: 0 auto;
     margin-bottom: 5px;
     border-radius: 10px;
-    background-color: rgba(213, 255, 249, 0.514);
+    background-color: rgba(213, 255, 249, 0.281);
 }
 .text{
     transition: all 0.5s;
@@ -276,8 +286,13 @@ td, th {
         flex-direction: column;
     }
     .imagenc{
-        margin-left: 15%;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    .nextart{
+        margin: auto;
         margin-right: 15%;
+        margin-left: 15%;
     }
 }
     
@@ -328,6 +343,12 @@ td, th {
         margin-left: 4%;
         margin-right: 4%;
     }
+    .nextart{
+        margin: auto;
+        margin-right: 8%;
+        margin-left: 8%;
+    }
+    
 }
 @media screen and (max-width: 570px) {
     main{
@@ -371,5 +392,14 @@ td, th {
         padding-left: 10px;
         margin-bottom: 5px;
         border-radius: 10px;
+    }
+    .imagenc{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .nextart{
+        margin: auto;
+        margin-right: 1%;
+        margin-left: 1%;
     }
 }

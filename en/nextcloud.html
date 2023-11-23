@@ -1,25 +1,26 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
     <title>Richard's Nextcloud</title>
 </head>
 <body class="background-image nextbg">
     <header>
         <div class="title"><h1 class="typed-out">Nextcloud</h1></div>
     </header>
-    <main class="Nextcloud"><article>
-
-        <p class="text ntext">Pour pouvoir synchroniser mes fichiers et les sauvegarder, j'ai mis en place un serveur nextcloud, de cette manière, je garde le controle de mes données et de ma vie privée.</p>
-        <p class="text ntext">Mon but étant de <a href = "https://richou-667-netw.tplinkdns.com">l'ouvrir a l'internet</a>, il est donc nécessaire qu'il soir sécurisé, c'est pour cela que j'ai opté pour la version préconfigurée sur le store <a href="https://snapcraft.io/nextcloud">snapcraft</a> qui est donc sécurisée par défaut (à condition de mettre un mdp fort).</p>
-        <p class="text ntext">Je n'ai pas ouvert le port 22(accès sécurisé a distance) pour éviter des attaques par bruteforce a distance, j'ai donc activé la fonction serveur OpenVpn sur mon routeur TpLink ce qui me permet d'y avoir un accès complet sécurisé a distance</p>
-        
-        <p class="text ntext">Actuellement, je ne sais pas si je vais garder ce serveur indéfiniment, mais il est actuellement très utile, si je m'en sert plus je le reconvertirai en serveur home-assistant (plus performant que le serveur actuel pour la commande vocale)</p>
-        <p class="text ntext">Pour vérifier que le serveur est sécurisé, on peut utiliser <a href="https://scan.nextcloud.com/">l'outil fournit par nextcloud.</a> Je l'ai donc fait et vous pouvez voir le resultat ci dessous (vous pouvez le faire si vous voulez vérifier)</p>
-        <img class="imagenc" src="images/scan.png">
-</article>
-</main>
-
+    <button class="button" onclick="window.location.href='index.html'"">Back</button>
+    <main class="Nextcloud">
+        <article class="nextart">
+            <p class="text ntext">To synchronize and back up my files, I have set up a Nextcloud server. This way, I keep control of my data and privacy.</p>
+            <p class="text ntext">My goal is to <a href="https://richou-667-netw.tplinkdns.com">make it accessible on the internet</a>, so it is necessary to secure it. That's why I opted for the preconfigured version on the <a href="https://snapcraft.io/nextcloud">Snapcraft store</a>, which is secure by default (provided you use a strong password).</p>
+            <p class="text ntext">I have not opened port 22 (secure remote access) to prevent remote brute force attacks. Instead, I have activated the OpenVPN server function on my TpLink router, allowing me to have secure full access remotely.</p>
+            <p class="text ntext">Currently, I'm not sure if I will keep this server indefinitely, but it is currently very useful. If I use it less, I will repurpose it into a Home Assistant server (more powerful than the current server for voice command).</p>
+            <p class="text ntext">To check if the server is secure, you can use the tool provided by Nextcloud. I have done that, and you can see the result below (you can do it too if you want to verify).</p>
+            <img class="imagenc" src="../images/scan.png">
+        </article>
+    </main>
+    © 2023 Martin Richard
 </body>
+</html>
