@@ -28,8 +28,34 @@ footer{
 p{
     color: #ffffff;
 }
+.music{
+    transition: all 0.5s;
+    overflow-y: hidden;
+    height: 40px;
+}
+.games{
+    transition: all 0.5s;
+    overflow-y: hidden;
+    height: 40px;
+    align-items: center;
+}
+.games:hover{
+    transition: all 0.5s;
+    height: 290px;
+}
+.music:hover{
+    transition: all 0.5s;
+    height: 400px;
+}
 .ntext{
     color: #000;
+}
+
+iframe.gamesframe{
+    border-radius: 10px;
+    height: 200px;
+    opacity: 0.9;
+    margin-left: 20%;
 }
 
 html, body {
@@ -65,13 +91,10 @@ header{
 }
 
 main{
-    ftransition: all 0.2s;
     display: flex;
     flex-direction: column;
     flex-flow: row wrap;
-    justify-content: space-around;
     flex-grow: 1;
-    animation: open 1s forwards;
     background: url('images/Back.jpg') center/cover no-repeat; 
     background-attachment: fixed;
 }
@@ -152,7 +175,6 @@ article{
     margin-bottom: 10px;
     margin-top: 10px;
     border-radius: 20px;
-    animation: open 1s forwards;
 }
 
 .whoami{
@@ -182,7 +204,7 @@ display: inline-block;
     background-color: #0161a16b;
   }
 .centresi{
-    margin-bottom: 10px;
+    margin-bottom: auto;
     
 }
 .spotify{
